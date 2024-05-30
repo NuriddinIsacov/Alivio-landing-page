@@ -1,124 +1,160 @@
-body{
-    top: 0;
-    margin: 0;
-    font: roboto, sans-serif;
+body {
+  position: relative;
+  top: 0;
+  margin: 0;
+  font: roboto, sans-serif;
 }
 
 /*Header section*/
 
-.header-section{
-    top: 0;
-    margin: 0;
-    width: 100%;
-    background-color: #fff;
-    border-bottom: 0.2px #bebebe solid;
+.header-section {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 0.2px #bebebe solid;
 }
 
-.header-items{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 10px;
+.header-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
 }
 
-.header-item{
-    margin-right: 40px;
+.header-item {
+  margin-right: 40px;
 }
-.header-item a{
-    color: #292929;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: 0.25s all ease-in-out;
-}
-
-.header-item a:hover{
-    color: #01996D;
+.header-item a {
+  color: #292929;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.25s all ease-in-out;
 }
 
-.header-icon{
-    margin: 0 170px;
+.header-item a:hover {
+  color: #01996d;
 }
 
-.header-icon a{
-    color: #01996D;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 750;
+.header-icon {
+  margin: 0 170px;
 }
 
-.header-signin{
-    margin-left: 200px;
-    margin-right: 10px;
+.header-icon a {
+  color: #01996d;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 750;
 }
 
-.header-signin a{
-    padding-right: 10px;
+.header-signin {
+  margin-left: 200px;
+  margin-right: 10px;
 }
 
-.header-trial{
-    border-radius: 3px;
-    background-color: #01996D;
-    transition: 0.25s all ease-in-out;
+.header-signin a {
+  padding-right: 10px;
 }
 
-.header-trial a{
-    color: #292929;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: capitalize;
-    display: inline-block;
-    color: #fff;
-    padding: 10px 30px;
+.header-trial {
+  border-radius: 3px;
+  background-color: #01996d;
+  transition: 0.25s all ease-in-out;
 }
 
-.header-trial:hover{
-    box-shadow: 0 0 0 1px #01996D;
+.header-trial a {
+  color: #292929;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.header-trial:hover {
+  box-shadow: 0 0 0 1px #01996d;
 }
 
 /*Main section*/
-.main-section{
-    width: 100%;
-    height: 555px;
-    background: url("./Images/main-bg.png");
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    justify-content: center;
+.main-section {
+  margin: 62px 0 0 0;
+  width: 100%;
+  height: 555px;
+  background: url("./Images/main-bg.png");
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.main-items{
-    width: 400px;
-    margin-left: 225px;
+.main-items {
+  width: 400px;
+  margin-left: 225px;
 }
 
-.section-title{
-    color: #01996D;
-    font-size: 45px;
-    margin: 0 0 25px 0;
+.section-title {
+  color: #01996d;
+  font-size: 45px;
+  margin: 0 0 25px 0;
 }
 
-.section-description{
-    color: #292929;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 40px;
+.section-description {
+  color: #292929;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 40px;
 }
 
-.section-button{
-    color: #fff;
-    background-color: #01996D;
-    padding: 15px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: 0.25s all ease-in-out;
+.section-button {
+  color: #fff;
+  background-color: #01996d;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.25s all ease-in-out;
 }
 
-.section-button:hover{
-    box-shadow: 0 0 0 1px #01996D;
+.section-button:hover {
+  box-shadow: 0 0 0 1px #01996d;
 }
 
+/*About section*/
+.about-section {
+  margin: 150px 200px;
+}
+
+.about-section > h5 {
+  font-size: 20px;
+  color: #424242;
+  margin: 0;
+}
+
+.about-title {
+  float: left;
+  width: 50%;
+  font-size: 32px;
+  color: #01996d;
+  margin: 0;
+  line-height: 60px;
+}
+
+.about-title h3 {
+  margin: 0;
+}
+
+.about-description {
+  float: right;
+  width: 50%;
+  font-size: 16px;
+  color: #424242;
+  align-items: center;
+  padding-top: 5px;
+  line-height: 22px;
+}
