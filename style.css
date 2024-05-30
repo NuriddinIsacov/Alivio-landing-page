@@ -198,3 +198,46 @@ body {
     margin-bottom: 50px;
     padding-right: 8px;
 }
+
+/*Customers section styles*/
+
+.customers-section{
+    background-color: #245852;
+    padding: 160px;
+}
+
+.customers-items{
+    display: flex;
+}
+
+.customers-item__video{
+    float: right;
+    width: 55%;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.customers-item__video iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.customers-item__about{
+    margin-top: 30px;
+}
+
+
+.customers-about__title{
+    font-size: 42px;
+    color: #fff;
+}
+
+.customers-about__description{
+    margin-bottom: 55px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.customers-about__button{
+}
