@@ -127,7 +127,8 @@ body {
 
 /*About section*/
 .about-section {
-  margin: 150px 200px;
+  margin: 100px 200px;
+  margin-bottom: 200px;
 }
 
 .about-section > h5 {
