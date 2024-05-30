@@ -159,3 +159,42 @@ body {
   padding-top: 5px;
   line-height: 22px;
 }
+
+/*Solutions section*/
+.solutions-section{
+    margin: 50px 140px;
+}
+
+.solutions-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.solutions-card{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.solutions-card img{
+    height: 350px;
+    border-radius: 5px;
+}
+
+.middle-card{
+    margin-top: 180px;
+}
+
+.solutions-card__title{
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.solutions-card__description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #424242;
+    margin-bottom: 50px;
+    padding-right: 8px;
+}
