@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   top: 0;
@@ -92,6 +96,7 @@ body {
   justify-content: left;
   flex-direction: column;
   justify-content: center;
+  padding: 62px 0 0 0;
 }
 
 .main-items {
@@ -130,6 +135,7 @@ body {
 .about-section {
   margin: 100px 200px;
   margin-bottom: 200px;
+  padding: 80px 0 0 0;
 }
 
 .about-section > h5 {
@@ -164,6 +170,7 @@ body {
 /*Solutions section*/
 .solutions-section {
   margin: 50px 140px;
+  padding: 60px 0 0 0;
 }
 
 .solutions-cards {
@@ -204,7 +211,7 @@ body {
 
 .customers-section {
   background-color: #245852;
-  padding: 160px;
+  padding: 190px 160px 160px 160px;
 }
 
 .customers-items {
@@ -248,6 +255,7 @@ body {
 
 .products-section {
   margin: 0;
+  padding: 40px 0 0 0;
 }
 
 .products-images {
@@ -294,28 +302,76 @@ body {
   margin-left: 50px;
 }
 
-.products-small__title{
-    font-size: 20px;
-    color: #424242;
-    margin: 20px 0;
+.products-small__title {
+  font-size: 20px;
+  color: #424242;
+  margin: 20px 0;
 }
 
-.products-title{
-    font-size: 40px;
-    color: #01996d;
-    margin: 20px 0;
-    line-height: 50px;
+.products-title {
+  font-size: 40px;
+  color: #01996d;
+  margin: 20px 0;
+  line-height: 50px;
 }
 
-.products-description{
-    font-size: 16px;
-    padding-right: 50px;
-    color: #424242;
-    margin: 20px 0;
-    line-height: 20px;
+.products-description {
+  font-size: 16px;
+  padding-right: 50px;
+  color: #424242;
+  margin: 20px 0;
+  line-height: 20px;
 }
 
-.products-button a{
-    display: inline-block;
-    margin-top: 30px 0;
+.products-button a {
+  display: inline-block;
+  margin-top: 30px 0;
+}
+
+/*Footer section*/
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #245852;
+  height: 300px;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-items a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+}
+
+.footer-item {
+  margin: 0 30px;
+}
+
+.footer-icon {
+  list-style: none;
+  margin: 0 30px;
+}
+
+.footer-icon a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s all ease-in-out;
+}
+
+.footer-section a:hover {
+  color: #01996d;
 }
